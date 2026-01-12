@@ -50,10 +50,13 @@
     .article:hover { transform: scale(1.02); }
 
     .article img {
-  width: 100%;          /* cho ảnh phủ toàn chiều ngang khung */
-  height: auto;         /* giữ tỉ lệ gốc ảnh, không méo */
-  display: block;
-    }
+  width: 50%;           /* tăng từ 40% → 50% để ảnh to hơn */
+  height: auto;
+  object-fit: cover;
+}
+.article-content {
+  width: 50%;           /* giảm từ 60% → 50% để khung cân 2 bên */
+}
 
     .article-content {
       padding: 20px;
