@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CLB Ngoại Khóa - THPT Nguyễn Đình Chiểu</title>
+  <style>
+    /* Tổng thể */
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #e0f7fa, #f3e5f5);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      background: linear-gradient(90deg, #1565c0, #42a5f5);
+      color: #fff;
+      padding: 40px 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    header img {
+      width: 80px;
+      height: auto;
+    }
+
+    header h1 {
+      font-size: 26px;
+      margin: 10px 0 5px;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      font-size: 15px;
+      opacity: 0.9;
+    }
+
+    /* Thanh slogan */
+    .qualities {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      background: #ffffffcc;
+      padding: 20px;
+      margin: 30px auto;
+      border-radius: 16px;
+      width: 90%;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .qualities div {
+      flex: 1;
+      min-width: 180px;
+      margin: 10px;
+      text-align: center;
+    }
+
+    .qualities h3 {
+      color: #1565c0;
+    }
+
+    /* Phần nội dung */
+    .clubs {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 20px;
+    }
+
+    .card {
+      background: #fff;
+      width: 320px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .card-content h3 {
+      color: #1565c0;
+      margin-bottom: 10px;
+    }
+
+    .card-content p {
+      color: #555;
+    }
+
+    footer {
+      background: #212121;
+      color: #eee;
+      text-align: center;
+      padding: 30px 10px;
+      margin-top: 50px;
+    }
+
+    footer a {
+      color: #90caf9;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/High_school_icon.png/240px-High_school_icon.png" alt="THPT Logo" />
+    <h1>TRƯỜNG THPT NGUYỄN ĐÌNH CHIỂU</h1>
+    <p>CLB NGOẠI KHÓA - NƠI HỘI TỤ NĂNG LƯỢNG TUỔI TRẺ</p>
+  </header>
+
+  <section class="qualities">
+    <div>
+      <h3>Năng động</h3>
+      <p>Như quảng cáo sữa MILO</p>
+    </div>
+    <div>
+      <h3>Đam mê</h3>
+      <p>Trận nào cũng như trận chung kết</p>
+    </div>
+    <div>
+<h3>Tỏa sáng</h3>
+      <p>Bạn thấy Faker không? Cảm giác y vậy đó :))</p>
+    </div>
+  </section>
+
+  <section class="clubs">
+    <div class="card">
+      <img src="https://i.imgur.com/o6FTLr5.jpg" alt="Chào mừng" />
+      <div class="card-content">
+        <h3>Chào mừng</h3>
+        <p>Bạn muốn bung hết sức với những hoạt động yêu thích? Đây là nơi dành cho bạn!</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://i.imgur.com/0R6kW4S.jpg" alt="CLB Thể Thao" />
+      <div class="card-content">
+        <h3>CLB Thể Thao</h3>
+        <p>Bóng đá, Cầu lông, Bóng chuyền, Thể thao điện tử,...</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://i.imgur.com/FJ1zI3V.jpg" alt="CLB Truyền Thông" />
+      <div class="card-content">
+        <h3>CLB Truyền Thông</h3>
+        <p>Nâng tầm kỹ năng nhiếp ảnh, livestream, và biên tập video chuyên nghiệp.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://i.imgur.com/yaJ6s4T.jpg" alt="CLB Thiện Nguyện" />
+      <div class="card-content">
+        <h3>CLB Thiện Nguyện</h3>
+        <p>Cho đi, sẻ chia, lan tỏa yêu thương và đóng góp sức trẻ vì cộng đồng.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>📞 Liên hệ: 0275 382 2568 | 🌐 Website: 
+      <a href="#">THPT Nguyễn Đình Chiểu</a></p>
+    <p>Xem thêm: 
+      <a href="#">CLB Thể thao</a> • 
+      <a href="#">CLB Truyền thông</a> • 
+      <a href="#">CLB Thiện nguyện</a>
+    </p>
+  </footer>
+</body>
+</html>
