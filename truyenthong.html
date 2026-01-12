@@ -50,8 +50,9 @@
     .article:hover { transform: scale(1.02); }
 
     .article img {
-      width: 40%;
-      object-fit: cover;
+  width: 100%;          /* cho ảnh phủ toàn chiều ngang khung */
+  height: auto;         /* giữ tỉ lệ gốc ảnh, không méo */
+  display: block;
     }
 
     .article-content {
